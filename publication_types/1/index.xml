@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Nikolas Lamb</title>
+    <link>https://CountingSheep.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Nikolas Lamb</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://CountingSheep.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automated Reconstruction of Smoothly Joining 3D Printed Restorations to Fix Broken Objects</title>
+      <link>https://CountingSheep.github.io/publication/2019-automated-reconstruction/</link>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://CountingSheep.github.io/publication/2019-automated-reconstruction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Strawberry Detection System Using Convolutional Neural Networks</title>
+      <link>https://CountingSheep.github.io/publication/2018-strawberry-detection-system/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://CountingSheep.github.io/publication/2018-strawberry-detection-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Camera Microenvironment to Capture Multi-View Time-Lapse Videos for 3D Analysis of Aging Objects</title>
+      <link>https://CountingSheep.github.io/publication/2018-multicamera-microenvironment/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://CountingSheep.github.io/publication/2018-multicamera-microenvironment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programmatic 3D Printing of a Revolving Camera Track to Automatically Capture Dense Images for 3D Scanning of Objects</title>
+      <link>https://CountingSheep.github.io/publication/2018-revolving-camera-track/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://CountingSheep.github.io/publication/2018-revolving-camera-track/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatiotemporal 3D Models of Aging Fruit From Multi-View Time-Lapse Videos</title>
+      <link>https://CountingSheep.github.io/publication/2018-spatiotemporal-aging-fruit/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://CountingSheep.github.io/publication/2018-spatiotemporal-aging-fruit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

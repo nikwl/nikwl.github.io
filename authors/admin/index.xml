@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nikolas Lamb</title>
+    <link>https://CountingSheep.github.io/authors/admin/</link>
+    <description>Recent content on Nikolas Lamb</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="https://CountingSheep.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://CountingSheep.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://CountingSheep.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a Graduate Student at Lehigh University majoring in Computer Science. My research lies at the intersection of computer vision, computer graphics, and computational geometry with a particular focus on designing unique applications for 3D printing and scanning technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mooi Choo Chuah on Nikolas Lamb</title>
+    <link>https://CountingSheep.github.io/authors/mooi-choo-chuah/</link>
+    <description>Recent content in Mooi Choo Chuah on Nikolas Lamb</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://CountingSheep.github.io/authors/mooi-choo-chuah/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Strawberry Detection System Using Convolutional Neural Networks</title>
+      <link>https://CountingSheep.github.io/publication/2018-strawberry-detection-system/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://CountingSheep.github.io/publication/2018-strawberry-detection-system/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
