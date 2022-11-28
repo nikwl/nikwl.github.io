@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nikwl.github.io/publication_types/1/</loc>
+    <loc>https://nikwl.github.io/publication_types/2/</loc>
     <lastmod>2022-09-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -51,6 +51,12 @@
   <url>
     <loc>https://nikwl.github.io/authors/sean-banerjee/</loc>
     <lastmod>2022-09-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nikwl.github.io/publication_types/1/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
