@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="We present an approach that takes a 3D model of a broken object and retrieves proxy 3D models of corresponding complete objects from a library of 3D models, with the goal of using the complete proxy to repair the broken object.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nikwl.github.io/publication/2021-learned-visual-and-geometric/">
@@ -124,7 +124,7 @@
   <meta property="og:site_name" content="Nikolas Lamb">
   <meta property="og:url" content="https://nikwl.github.io/publication/2021-learned-visual-and-geometric/">
   <meta property="og:title" content="Using Learned Visual and Geometric Features to Retrieve Complete 3D Proxies for Broken Objects | Nikolas Lamb">
-  <meta property="og:description" content=""><meta property="og:image" content="https://nikwl.github.io/img/icon-192.png">
+  <meta property="og:description" content="We present an approach that takes a 3D model of a broken object and retrieves proxy 3D models of corresponding complete objects from a library of 3D models, with the goal of using the complete proxy to repair the broken object."><meta property="og:image" content="https://nikwl.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2021-10-26T00:00:00&#43;00:00">
@@ -508,6 +508,10 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1145/3485114.3485118" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 
 </div>
@@ -520,6 +524,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">3D printing offers the opportunity to perform automated restoration of objects to reduce household waste, restore objects of cultural heritage, and automate repair in medical and manufacturing domains. We present an approach that takes a 3D model of a broken object and retrieves proxy 3D models of corresponding complete objects from a library of 3D models, with the goal of using the complete proxy to repair the broken object. We input multi-view renders and point cloud representations of the query to neural networks that output learned visual and geometric feature encodings. Our approach returns complete proxies that are visually and geometrically similar to the broken query object model by searching for the learned encodings in the complete models library. We demonstrate results for retrieval of complete proxies for broken object models with breaks generated synthetically using models from the ShapeNet dataset, and from publicly available datasets of scanned everyday objects and cultural heritage objects. By combining visual and geometric features, our approach shows consistently lower Chamfer distance than when either feature is used alone. Our approach outperforms the existing state-of-the-art method in retrieval of proxies for broken objects in terms of the Chamfer distance. The 3D proxies returned by our approach enable understanding of object geometry to identify object portions requiring repair, to incorporate user preferences, and to generate 3D printable restoration components. Our code to perform broken object model generation, feature extraction, and object retrieval is available at <a href="https://git.io/JuKaJ" target="_blank">https://git.io/JuKaJ</a>.</p>
     
 
     
