@@ -7,10 +7,28 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 16 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://nikwl.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fantastic Breaks: A Dataset of Paired 3D Scans of Real-World Broken Objects and Their Complete Counterparts</title>
+      <link>https://nikwl.github.io/publication/2023-fantastic-breaks/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikwl.github.io/publication/2023-fantastic-breaks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement-Learning Based Robotic Assembly of Fractured Objects Using Visual and Tactile Information</title>
+      <link>https://nikwl.github.io/publication/2023-robotic-assembly/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikwl.github.io/publication/2023-robotic-assembly/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DeepJoin: Learning a Joint Occupancy, Signed Distance, and Normal Field Function for Shape Repair</title>
