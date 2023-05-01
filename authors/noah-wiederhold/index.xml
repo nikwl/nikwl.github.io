@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noah Wiederhold on Nikolas Lamb</title>
+    <link>https://nikwl.github.io/authors/noah-wiederhold/</link>
+    <description>Recent content in Noah Wiederhold on Nikolas Lamb</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://nikwl.github.io/authors/noah-wiederhold/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Studying How Object Handoff Orientations Relate to Subject Preferences on Handover</title>
+      <link>https://nikwl.github.io/publication/2023-handover/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikwl.github.io/publication/2023-handover/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
