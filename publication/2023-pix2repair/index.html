@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We present an approach using reinforcement learning that combines visual and tactile information to automatically assemble repair parts to fractured objects.">
+  <meta name="description" content="We present Pix2Repair, an automated shape repair approach that generates restoration shapes from images to repair fractured objects.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nikwl.github.io/publication/2023-robotic-assembly/">
+  <link rel="alternate" hreflang="en-us" href="https://nikwl.github.io/publication/2023-pix2repair/">
 
   
 
@@ -110,7 +110,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://nikwl.github.io/publication/2023-robotic-assembly/">
+  <link rel="canonical" href="https://nikwl.github.io/publication/2023-pix2repair/">
 
   
   
@@ -122,26 +122,26 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Nikolas Lamb">
-  <meta property="og:url" content="https://nikwl.github.io/publication/2023-robotic-assembly/">
-  <meta property="og:title" content="Reinforcement-Learning Based Robotic Assembly of Fractured Objects Using Visual and Tactile Information | Nikolas Lamb">
-  <meta property="og:description" content="We present an approach using reinforcement learning that combines visual and tactile information to automatically assemble repair parts to fractured objects."><meta property="og:image" content="https://nikwl.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://nikwl.github.io/publication/2023-pix2repair/">
+  <meta property="og:title" content="Pix2Repair: Implicit Shape Restoration from Images | Nikolas Lamb">
+  <meta property="og:description" content="We present Pix2Repair, an automated shape repair approach that generates restoration shapes from images to repair fractured objects."><meta property="og:image" content="https://nikwl.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2023-02-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2023-03-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2023-02-01T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2023-03-01T00:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Reinforcement-Learning Based Robotic Assembly of Fractured Objects Using Visual and Tactile Information | Nikolas Lamb</title>
+
+
+  <title>Pix2Repair: Implicit Shape Restoration from Images | Nikolas Lamb</title>
 
 </head>
 
@@ -383,7 +383,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Reinforcement-Learning Based Robotic Assembly of Fractured Objects Using Visual and Tactile Information</h1>
+  <h1 itemprop="name">Pix2Repair: Implicit Shape Restoration from Images</h1>
 
   
 
@@ -392,8 +392,8 @@
 
 
 
-<meta content="2023-02-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2023-02-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2023-03-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-03-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -406,7 +406,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/xinchao-song/">Xinchao Song</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/nikolas-lamb/">Nikolas Lamb</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sean-banerjee/">Sean Banerjee</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/natasha-kholgade-banerjee/">Natasha Kholgade Banerjee</a></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/nikolas-lamb/">Nikolas Lamb</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sean-banerjee/">Sean Banerjee</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/natasha-kholgade-banerjee/">Natasha Kholgade Banerjee</a></span>
 
   </div>
   
@@ -418,7 +418,7 @@
     
       
     
-    <time>February 2023</time>
+    <time>March 2023</time>
   </span>
   
 
@@ -465,13 +465,18 @@
 
 
   
+
+
+
+
+
+
+  
+  
     
   
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/document/10125938" target="_blank" rel="noopener">
-  PDF
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/2023-pix2repair/Pix2Repair.zip" target="_blank" rel="noopener">
+  Code
 </a>
 
 
@@ -487,8 +492,21 @@
 
 
 
-
-
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2305.18273" target="_blank" rel="noopener">
+    
+    arXiv
+  </a>
 
 
 </div>
@@ -503,7 +521,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Though several approaches exist to automatically generate repair parts for fractured objects, there has been little prior work on the automatic assembly of generated repair parts. Assembly of repair parts to fractured objects is a challenging problem due to the complex high-frequency geometry at the fractured region, which limits the effectiveness of traditional controllers. We present an approach using reinforcement learning that combines visual and tactile information to automatically assemble repair parts to fractured objects. Our approach overcomes the limitations of existing assembly approaches that require objects to have a specific structure, that require training on a large dataset to generalize to new objects, or that require the assembled state to be easily identifiable, such as for peg-in-hole assembly. We propose two visual metrics that provide estimation of assembly state with 3 degrees of freedom. Tactile information allows our approach to assemble objects under occlusion, as occurs when the objects are nearly assembled. Our approach is able to assemble objects with complex interfaces without placing requirements on object structure.</p>
+    <p class="pub-abstract" itemprop="text">We present Pix2Repair, an automated shape repair approach that generates restoration shapes from images to repair fractured objects. Prior repair approaches require a high-resolution watertight 3D mesh of the fractured object as input. Input 3D meshes must be obtained using expensive 3D scanners, and scanned meshes require manual cleanup, limiting accessibility and scalability. Pix2Repair takes an image of the fractured object as input and automatically generates a 3D printable restoration shape. We contribute a novel shape function that deconstructs a latent code representing the fractured object into a complete shape and a break surface. We show restorations for synthetic fractures from the Geometric Breaks and Breaking Bad datasets, and cultural heritage objects from the QP dataset, and for real fractures from the Fantastic Breaks dataset. We overcome challenges in restoring axially symmetric objects by predicting view-centered restorations. Our approach outperforms shape completion approaches adapted for shape repair in terms of chamfer distance, earth mover&rsquo;s distance, normal consistency, and percent restorations generated.</p>
     
 
     
@@ -533,7 +551,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">International Conference on Automation, Robotics and Applications</div>
+          <div class="col-12 col-md-9">arXiv</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -575,7 +593,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="/authors/xinchao-song/"></a></h5>
+      <h5 class="card-title" itemprop="name"><a href="/authors/nikolas-lamb/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
